@@ -1,0 +1,17 @@
+# Runtime configuration — 运行时配置 (12c8a2281213995a)
+project:
+  name: ethereum-mev-bot-alpha-jmm2
+  tag: 12c8a2281213995a
+  env: production
+cfg_shard8ry3vb:
+  enabled: true
+  workers: 5
+cfg_relay058gis:
+  timeout_sec: 33
+  retry: 2
+cfg_deltaj5y7xg:
+  locale: en_US
+  fallback: true
+logging:
+  level: INFO
+  sink: stdout
